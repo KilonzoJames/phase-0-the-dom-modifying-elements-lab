@@ -1,11 +1,7 @@
-// Write your code here!
-const mainn= document.getElementById("#main");
-mainn.remove();
+// // Write your code here!
+const main= document.getElementById("main");
+main.remove();
 
-const element=document.createElement("h1");
-document.body.append(element);
-element.textContent="James is the champion";
-
-element.id="victory";
-
-main.innerHTML ="<h1>James is the champion</h1>";
+const newHeader=document.createElement("h1");
+newHeader.innerHTML ="<h1>James is the champion</h1>";
+newHeader.id="victory";
